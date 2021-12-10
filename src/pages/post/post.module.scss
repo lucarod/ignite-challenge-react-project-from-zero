@@ -1,7 +1,12 @@
+.loadingText {
+  text-align: center;
+}
+
 .banner {
   width: 100%;
   height: 25rem;
   object-fit: cover;
+  object-position: center;
   margin-bottom: 5rem;
 }
 
@@ -30,11 +35,21 @@
   }
 }
 
+.heading {
+  font-size: 2.25rem;
+  margin-bottom: 4rem;
+}
+
 .content {
   font-size: 1.125rem;
   line-height: 1.5rem;
   text-align: justify;
   margin-bottom: 5rem;
+  color: var(--gray-300);
+
+  p {
+    margin-bottom: 2rem;
+  }
 
   li {
     list-style: none;
